@@ -53,5 +53,16 @@
             "c": "$5k",
             "d": "$8k"
         }
+    },
+    { 
+        "image": "img6.png",
+        "question": "What is the name of the world's largest sculpture shown here?",
+        "correct": "c",
+        "answers": {
+            "a": "The Spring Temple Budda",
+            "b": "Christ the Redeeme",
+            "c": "Statue of Unity",
+            "d": "Laykyun Setkyar"
+        }
     }
 ]}
