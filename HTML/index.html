@@ -28,27 +28,23 @@
             <!-- list answers -->
             <form id="triviaAnswers">
                 <!-- radio buttons -->
-                <label id="answerA">
-                    <input type="radio">
-                </label>
-                <label id="answerB">
-                    <input type="radio">
-                </label>
-                <label id="answerC">
-                    <input type="radio">
-                </label>
-                <label id="answerD">
-                    <input type="radio">
-                </label>
-                <input type="submit">
+                <input type="radio" name="answer">
+                <label id="answerA"></label>
+                <input type="radio" name="answer">
+                <label id="answerB"></label>
+                <input type="radio" name="answer">
+                <label id="answerC"></label>
+                <input type="radio" name="answer">
+                <label id="answerD"></label>
+                <input id="triviaSubmit" type="button" value="submit">
             </form>
         </div>
     </main>
     <footer>
         <p>Made by Daniel Moffitt, Zackery Spears, Matt Riley, Jacob Richardson</p>
     </footer>
-    <!--Json-->
-    <script src="../API/api.js"></script>
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <!-- Main Script-->
     <script src="../JavaScript/main.js"></script>
 </body>
