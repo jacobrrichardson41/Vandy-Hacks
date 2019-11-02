@@ -35,8 +35,8 @@
             answerC.innerText = "C.) " + answers.c;
             answerD.innerText = "D.) " + answers.d;
             triviaSubmit.addEventListener('click', function() {
-                var startAudio = new Audio("../asset/AyayaAyaya.mp3");
-                startAudio.play();
+                // var startAudio = new Audio("../asset/AyayaAyaya.mp3");
+                // startAudio.play();
                 
                 // Collect input for question.
                 var inputs = document.getElementById('triviaAnswers').querySelectorAll('input');
@@ -57,13 +57,14 @@
                 if (used === false) {
                     // Push to history.
                     var result = "";
-                    result = {key, image, question, answers, correct, selected};
+                    var result = {key, image, question, answers, correct, selected};
                     trivia.history.push(result);
                 }
 
 
                 // generate random number key that is inside api.json trivia.length && not in history.
                 generateRandomKey();
+
                 function generateRandomKey() {
                     if (trivia.history.length !== arrayData.trivia.length) {
                         console.log(trivia.history);
@@ -81,12 +82,69 @@
                         console.log("New Question");
                         trivia.question(randomKey);
                     } else {
-                        console.log("Display Results");
+                        displayResults();
                     }
                 };
             });
             
         });
+    }
+
+    function displayResults() {
+        let triviaBox =document.getElementById('triviaBox');
+        triviaBox.innerHTML = "";
+
+
+        for (let i = 0; i < trivia.history.length; i++ ) {
+
+            let history = trivia.history[i];
+
+            var card = document.createElement('div');
+            card.classList.add('card');
+            triviaBox.appendChild(card);
+
+            var question = document.createElement('h2');
+            question.innerText = history.question;
+            card.appendChild(question);
+            
+            var resultDiv = document.createElement('div');
+            resultDiv.classList.add("resultAnswers");
+            card.appendChild(resultDiv);
+
+            console.log("this note: " + history.answers.length);
+
+
+            for (let index = 0; index < 4; index++ ) {
+
+                switch (index) {
+                    case 0:
+                        var val = "a";
+                        break;
+                    case 1:
+                        var val = "b";
+                        break;
+                    case 2:
+                        var val = "c";
+                        break;
+                    default:
+                        var val = "d";
+                }
+
+                var answer = document.createElement('h6');
+                if (history.correct === history.selected && history.correct === history.answers[val]) {
+                    answer.classList.add('correct');
+                } else if (history.selected !== history.correct && history.selected === history.answers[val]) {
+                    answer.classList.add('wrong');
+                } else if (history.selected !== history.correct && history.correct === history.answers[val]) {
+                    answer.classList.add('correct');
+                }
+                answer.innerText = history.answers[val];
+                resultDiv.appendChild(answer);
+                
+            }
+
+        }
+
     }
 
 }(window.trivia = window.trivia || {} , jQuery));

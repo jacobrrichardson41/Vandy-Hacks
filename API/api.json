@@ -3,7 +3,7 @@
         "key": "0",
         "image": "../IMG/img1.jpeg",
         "question": "Who painted the artwork Mona Lisa?",
-        "correct": "c",
+        "correct": "Lenoardo Da Vinci",
         "answers": {
             "a": "Michelangelo",
             "b": "Sandro Botticelli",
@@ -15,7 +15,7 @@
         "key": "1",
         "image": "../IMG/img2.jpeg",
         "question": "What year was the artwork The Starry Night created?",
-        "correct": "a",
+        "correct": "1889",
         "answers": {
             "a": "1889",
             "b": "1844",
@@ -27,7 +27,7 @@
         "key": "2",
         "image": "../IMG/img3.jpeg",
         "question": "What chapel ceiling did Michelangelo paint The Creation of Adam?",
-        "correct": "c",
+        "correct": "Sistine Chapel",
         "answers": {
             "a": "Rossyln Chapel",
             "b": "Niccoline Chapel",
@@ -39,7 +39,7 @@
         "key": "3",
         "image": "../IMG/img4.jpeg",
         "question": "What is the name of this artwork?",
-        "correct": "d",
+        "correct": "American Gothic",
         "answers": {
             "a": "The Potato Eaters",
             "b": "The School of Athens",
@@ -51,7 +51,7 @@
         "key": "4",
         "image": "../IMG/img5.jpeg",
         "question": "How much was the Nighthawk painting sold for in 1942?",
-        "correct": "b",
+        "correct": "$3k",
         "answers": {
             "a": "$12k",
             "b": "$3k",
@@ -63,7 +63,7 @@
         "key": "5",
         "image": "../IMG/img6.jpeg",
         "question": "What is the name of the world's largest sculpture shown here?",
-        "correct": "c",
+        "correct": "Statue of Unity",
         "answers": {
             "a": "The Spring Temple Budda",
             "b": "Christ the Redeeme",

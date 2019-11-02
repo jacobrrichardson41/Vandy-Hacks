@@ -88,3 +88,13 @@ p {
 input {
     cursor:pointer;
 }
+
+.wrong {
+    background-color: red;
+    border-radius: 5px;
+}
+
+.correct {
+    background-color: green;
+    border-radius: 5px;
+}
