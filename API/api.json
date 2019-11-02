@@ -1,0 +1,57 @@
+{ "trivia": [
+    {
+        "image": "img1.jpeg",
+        "question": "Who painted the artwork Mona Lisa?",
+        "correct": "c",
+        "answers": {
+            "a": "Michelangelo",
+            "b": "Sandro Botticelli",
+            "c": "Lenoardo Da Vinci",
+            "d": "Pablo Picasso"
+        }
+    },
+    { 
+        "image": "img2.jpeg",
+        "question": "What year was the artwork The Starry Night created?",
+        "correct": "a",
+        "answers": {
+            "a": "1889",
+            "b": "1844",
+            "c": "1921",
+            "d": "1902"
+        }
+    },
+    {
+        "image": "img3.jpeg",
+        "question": "What chapel ceiling did Michelangelo paint The Creation of Adam?",
+        "correct": "c",
+        "answers": {
+            "a": "Rossyln Chapel",
+            "b": "Niccoline Chapel",
+            "c": "Sistine Chapel",
+            "d": "Sasseti Chapel"
+        }
+    },
+    { 
+        "image": "img4.jpg",
+        "question": "What is the name of this artwork?",
+        "correct": "d",
+        "answers": {
+            "a": "",
+            "b": "The School of Athens",
+            "c": "The Kiss",
+            "d": "American Gothic"
+        }
+    },
+    { 
+        "image": "img5.jpeg",
+        "question": "How much was the Nighthawk painting sold for in 1942?",
+        "correct": "b",
+        "answers": {
+            "a": "$12k",
+            "b": "$3k",
+            "c": "$5k",
+            "d": "$8k"
+        }
+    }
+]}
