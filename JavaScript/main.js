@@ -56,6 +56,7 @@
 
                 if (used === false) {
                     // Push to history.
+                    var result = "";
                     result = {key, image, question, answers, correct, selected};
                     trivia.history.push(result);
                 }
