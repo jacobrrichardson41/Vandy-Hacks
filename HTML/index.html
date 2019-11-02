@@ -16,9 +16,37 @@
     <link rel="styleSheet" href="../CSS/main.css">
 </head>
 <body>
-
-
-
+    <main>
+        <!-- Box for stick figure -->
+        <div></div>
+        <!-- Trivia box -->
+        <div id="triviaBox">
+            <!-- Display Image -->
+            <img id="triviaImage"> 
+            <!-- Display Questions -->
+            <h1 id=triviaQuestion></h1>
+            <!-- list answers -->
+            <form id="triviaAnswers">
+                <!-- radio buttons -->
+                <label id="answerA">
+                    <input type="radio">
+                </label>
+                <label id="answerB">
+                    <input type="radio">
+                </label>
+                <label id="answerC">
+                    <input type="radio">
+                </label>
+                <label id="answerD">
+                    <input type="radio">
+                </label>
+                <input type="submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Made by Daniel Moffitt, Zackery Spears, Matt Riley, Jacob Richardson</p>
+    </footer>
     <!--Json-->
     <script src="../API/api.js"></script>
     <!-- Main Script-->
