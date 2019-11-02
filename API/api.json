@@ -1,6 +1,7 @@
 { "trivia": [
     {
-        "image": "img1.jpeg",
+        "key": "0",
+        "image": "../IMG/img1.jpeg",
         "question": "Who painted the artwork Mona Lisa?",
         "correct": "c",
         "answers": {
@@ -11,7 +12,8 @@
         }
     },
     { 
-        "image": "img2.jpeg",
+        "key": "1",
+        "image": "../IMG/img2.jpeg",
         "question": "What year was the artwork The Starry Night created?",
         "correct": "a",
         "answers": {
@@ -22,7 +24,8 @@
         }
     },
     {
-        "image": "img3.jpeg",
+        "key": "2",
+        "image": "../IMG/img3.jpeg",
         "question": "What chapel ceiling did Michelangelo paint The Creation of Adam?",
         "correct": "c",
         "answers": {
@@ -33,18 +36,20 @@
         }
     },
     { 
-        "image": "img4.jpg",
+        "key": "3",
+        "image": "../IMG/img4.jpg",
         "question": "What is the name of this artwork?",
         "correct": "d",
         "answers": {
-            "a": "",
+            "a": "The Potato Eaters",
             "b": "The School of Athens",
             "c": "The Kiss",
             "d": "American Gothic"
         }
     },
     { 
-        "image": "img5.jpeg",
+        "key": "4",
+        "image": "../IMG/img5.jpg",
         "question": "How much was the Nighthawk painting sold for in 1942?",
         "correct": "b",
         "answers": {
@@ -55,7 +60,8 @@
         }
     },
     { 
-        "image": "img6.png",
+        "key": "5",
+        "image": "../IMG/img6.png",
         "question": "What is the name of the world's largest sculpture shown here?",
         "correct": "c",
         "answers": {
